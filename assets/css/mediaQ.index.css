@@ -1,0 +1,82 @@
+
+
+@media (max-width:1400px) {
+    /* public */
+    .container {
+        width:100% !important;
+    }
+
+}
+
+@media  (max-width:1200px) {
+    /* public */
+    
+    header .overlay .container .logo{
+        transform:translate(-10%, -142%) !important;
+    }
+
+    
+}
+
+@media (max-width:1000px) {
+    /* public */
+    .container {
+        width:100% !important;
+    }
+    .navbar-expand-lg .navbar-nav {
+
+        flex-direction: column-reverse !important;
+    }
+
+    .container-fluid{
+        padding:16px;
+    }
+}
+
+@media (min-width:991px) {
+    .gallery .container{
+        width: 75% !important;
+    }
+    
+}
+@media (max-width:991px) {
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        display: none !important;
+    }
+    /* complete-purchase */
+    .purchase-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .gallery .carousel-item{
+        height: 20rem !important;
+    }
+    section{
+        padding-block: 2rem !important;
+    }
+    
+}
+
+@media (max-width:768px) {
+
+    
+}
+
+@media (max-width:576px) {
+
+    .gallery .carousel-indicators{
+        width:100% !important ;
+    }
+    .gallery .carousel-indicators button img{
+        height: 3rem !important;
+    } 
+    /* cards */
+    .cards-container{
+        flex-direction: column;
+    }
+    .single-card {
+        width: 100%;
+
+    }
+    
+}
